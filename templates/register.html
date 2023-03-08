@@ -9,23 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="loginbox">
+    <div class="registration">
         <img src="/static/Screenshot_2023-02-04_174653.png" class="avatar">
-        <h1>Register Here</h1>
-        <form action="/index" method="post">
-            <p>Name</p>
-            <input type="text" name="name" placeholder="Enter your name">
-            <p>Email</p>
-            <input type="text" name="email" placeholder="Enter your email">
+        <h1>Login Here</h1>
+        <form action="/register" method="post">
             <p>Username</p>
             <input type="text" name="username" placeholder="Enter Username">
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password">
-            <p>RePassword</p>
-            <input type="password" name="re-password" placeholder="Re-Enter Password">
-            <input type="submit" value="Register">
-            <a href="/login">Already a User?please login</a><br>
+            <p>name</p>
+            <input type="text" name="name" placeholder="Enter your name">
+            <p>email</p>
+            <input type="text" name="email" placeholder="Enter email id">
+
+            <input type="submit" value="register">
+            <a href="#">Lost your Password?</a><br>
+            <a href="/login">Already an user please login </a>
         </form>
-    </div>
-</body>
-</html>
+
+    </div> 
